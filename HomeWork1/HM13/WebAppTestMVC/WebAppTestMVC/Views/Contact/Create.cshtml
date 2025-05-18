@@ -1,0 +1,50 @@
+﻿@model WebAppTestMVC.Models.Contact
+
+<div class="container shadow p-5">
+    <div class="row pb-2">
+        <h2>Add Contact</h2>
+    </div>
+
+    <form method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="Name">Name</label>
+                <input type="text" class="form-control mb-3" asp-for="Name" placeholder="Enter Name" required />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Phone">Phone</label>
+                <input type="text" class="form-control mb-3" asp-for="Phone" placeholder="Enter Phone" required />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="AdditionalPhone">Additional Phone</label>
+                <input type="text" class="form-control mb-3" asp-for="AdditionalPhone" placeholder="Enter Additional Phone" />
+                <span asp-validation-for="AdditionalPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Email">Email</label>
+                <input type="email" class="form-control mb-3" asp-for="Email" placeholder="Enter Email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea class="form-control mb-3" asp-for="Description" placeholder="Short description..."></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-lg btn-primary p-2">Save</button>
+        <a asp-action="Index" class="btn btn-lg btn-warning p-2">Back To List</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

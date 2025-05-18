@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebAppTestMVC.Models.Contact>
+
+@{
+    ViewData["Title"] = "Contact list";
+}
+
+<div class="container shadow p-5">
+    <h1>Contact CRUD Demo</h1>
+
+    <div class="col mb-3">
+        <a asp-controller="Contact" asp-action="Create" class="btn btn-lg btn-primary">
+            <i class="bi bi-file-plus-fill"></i> Add Contact
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Additional Phone</th>
+                <th scope="col">Email</th>
+                <th scope="col">Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contact in Model)
+            {
+                <tr>
+                    <td>@contact.Name</td>
+                    <td>@contact.Phone</td>
+                    <td>@contact.AdditionalPhone</td>
+                    <td>@contact.Email</td>
+                    <td>@contact.Description</td>
+                    <td>
+                        <div role="group" class="btn-group w-100">
+                            <a asp-controller="Contact" asp-action="Edit" asp-route-id="@contact.Id" class="btn btn-sm btn-primary me-2">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                            <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.Id" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash-fill"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
