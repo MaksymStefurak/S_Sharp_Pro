@@ -1,0 +1,12 @@
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\bin\Debug\net8.0\FitnessTestApp.Domain.deps.json
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\bin\Debug\net8.0\FitnessTestApp.Domain.dll
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\bin\Debug\net8.0\FitnessTestApp.Domain.pdb
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.AssemblyInfoInputs.cache
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.AssemblyInfo.cs
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.csproj.CoreCompileInputs.cache
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.sourcelink.json
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.dll
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\refint\FitnessTestApp.Domain.dll
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\FitnessTestApp.Domain.pdb
+D:\S_Sharp_Pro\FitnessTestApp\FitnessTestApp.Domain\obj\Debug\net8.0\ref\FitnessTestApp.Domain.dll
