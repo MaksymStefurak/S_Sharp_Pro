@@ -1,0 +1,6 @@
+@ShopRestfullApp_HostAddress = http://localhost:5162
+
+GET {{ShopRestfullApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
