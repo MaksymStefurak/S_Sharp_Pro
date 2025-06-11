@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "CustomerTrainerService\\CustomerTrainerService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ReservationService\\ReservationService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
